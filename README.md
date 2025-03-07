@@ -57,3 +57,20 @@ This repository is for preservation purposes only and is archived without suppor
 ## License
 
 This repository and its contents are licensed under the GPL v3 license, with additional terms applied. Please see [LICENSE.md](LICENSE.md) for details.
+
+## Installing Visual Studio 6.0 on Windows 10
+
+Download Microsoft Visual Studio 6.0 Enterprise (6.00.8168) from WinWorld found [here](https://winworldpc.com/product/microsoft-visual-stu/60).
+Verify md5 and compare against md5 provided in the download.
+Utilize 7zip to extract the files from the ISOs.
+Then follow directions provided on [CodeProject](https://www.codeproject.com/Articles/1191047/Install-Visual-Studio-6-0-on-Windows-10) on how to install, mind the following notes.
+NOTE: 
+  - When you reach step 3, if you are unable to find a compatibility tab within properties then do the following:
+    - Right click on SETUP.EXE then click "Troubleshoot compatibility"
+    - -> Try recommended settings
+    - You should see "Settings applied to SETUP - Windows compatibility mode: Windows XP (Service Pack 3)"
+    - Before hitting "Next" the compatibility tool will require you to click "Test the program..."
+    - Click "Test the program...", when it prompts to allow changes to your computer select "No" (So we can finish following the directions on CodeProject).
+    - -> Yes, save these settings for this program
+    - "Close" or -> "Close the troubleshooter"
+  - When you run the setup wizard and reach "seaching the system for previously installed components" BE PATIENT, EXPECT IT TO TAKE A WHILE.
