@@ -75,3 +75,5 @@ NOTE:
     - "Close" or -> "Close the troubleshooter"
   - When you run the setup wizard and reach "seaching the system for previously installed components" BE PATIENT, IT MAY TAKE A WHILE.
   - When you get to "Visual Studio 6.0 Enterprise - Custom" entirely uncheck "Data Access" instead of only the portions the tutorial has you uncheck.
+  - SP6 can be found [here](https://web.archive.org/web/20200812041814/http://download.microsoft.com/download/f/0/3/f03c202d-1ce4-4267-9393-a8a4b400a982/Vs6sp6B.exe)
+  - MSDN Library Disk ISO can be found [here](https://archive.org/details/microsoft-visual-studio-6.0-msdn-library-disc-1)
