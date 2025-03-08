@@ -63,7 +63,7 @@ This repository and its contents are licensed under the GPL v3 license, with add
 Download Microsoft Visual Studio 6.0 Enterprise (6.00.8168) from WinWorld found [here](https://winworldpc.com/product/microsoft-visual-stu/60).
 Verify md5 and compare against md5 provided in the download.
 Utilize 7zip to extract the files from the ISOs.
-Then follow directions provided on [CodeProject](https://www.codeproject.com/Articles/1191047/Install-Visual-Studio-6-0-on-Windows-10) on how to install, mind the following notes.
+Then follow directions provided on [CodeProject](https://www.codeproject.com/Articles/1191047/Install-Visual-Studio-6-0-on-Windows-10) on how to install, mind the following notes, read them ALL if you have issues.
 NOTE: 
   - When you reach step 3, if you are unable to find a compatibility tab within properties then do the following:
     - Right click on SETUP.EXE then click "Troubleshoot compatibility"
@@ -73,4 +73,5 @@ NOTE:
     - Click "Test the program...", when it prompts to allow changes to your computer select "No" (So we can finish following the directions on CodeProject).
     - -> Yes, save these settings for this program
     - "Close" or -> "Close the troubleshooter"
-  - When you run the setup wizard and reach "seaching the system for previously installed components" BE PATIENT, EXPECT IT TO TAKE A WHILE.
+  - When you run the setup wizard and reach "seaching the system for previously installed components" BE PATIENT, IT MAY TAKE A WHILE.
+  - When you get to "Visual Studio 6.0 Enterprise - Custom" entirely uncheck "Data Access" instead of only the portions the tutorial has you uncheck.
